@@ -5,9 +5,9 @@ class SettingsModel:
     """A model for save settings"""
 
     variables = {
-            "autofill date": {"type": "bool", "value": True},
-            "autofill sheet data": {"type": "bool", "value": True}
-            }
+        "autofill date": {"type": "bool", "value": True},
+        "autofill sheet data": {"type": "bool", "value": True}
+    }
 
     def __init__(self, filename="abq_settings.json", path="~"):
 
