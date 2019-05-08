@@ -20,7 +20,6 @@ class Application(tk.Tk):
         self.load_settings()
         
         # menus
-        # TODO menus
     
     def load_settings(self):
         """Load settings into our self.settings dict"""
